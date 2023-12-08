@@ -1,3 +1,4 @@
+from typing import Self
 class mapList(list):
     #set up properties
     @property
@@ -87,7 +88,7 @@ class mapList(list):
 
     #returns the map resulting from applying this map, and then the map in other. 
     #if destructive, it only returns the portions of that map corresponding to mapped areas in the first map.
-    def compose(self, other, destructive:bool=False):
+    def compose(self, other:Self, destructive:bool=False)->Self:
         answer = mapList()
         self.sort(key=lambda x: x[1])
         self.first = True
