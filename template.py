@@ -1,3 +1,4 @@
+import time
 f = open(r"Day X\input.txt","r")
 #f = open(r"Day X\sample.txt","r")
 
@@ -10,3 +11,4 @@ for line in f:
 
 print(answerOne)
 print(answerTwo)
+print (time.process_time)

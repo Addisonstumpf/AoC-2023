@@ -1,4 +1,5 @@
 from typing import Self
+import time
 class mapList(list):
     #set up properties
     @property
@@ -172,3 +173,4 @@ totalMap.sort(key=lambda x: x[1])
 answerTwo = totalMap[0][1]
 print(answerOne)
 print(answerTwo)
+print(time.process_time())
