@@ -11,4 +11,4 @@ for line in f:
 
 print(answerOne)
 print(answerTwo)
-print (time.process_time)
+print (time.process_time())
