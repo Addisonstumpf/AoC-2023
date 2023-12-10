@@ -44,4 +44,4 @@ def lesserHand(handOne, handTwo):
             i+=1
     return answer
 
-print(lesserHand("225JT", "235A4"))
+print("test".find('A'))

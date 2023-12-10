@@ -8,6 +8,7 @@ answerTwo = 0
 
 for line in f:
     #do the thing
+    #list(map(int, item.rstrip().split(' ')))
 
 print(answerOne)
 print(answerTwo)
