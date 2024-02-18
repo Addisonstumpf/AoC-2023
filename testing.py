@@ -1,7 +1,13 @@
-ls = [0,1,2,3,4,5,6,7]
-answer = []
-for i in range(1,3, 1):
-    answer.append(i)
+test = {'first': 1, 'second': 2}
+test['first'] = 3
+test['third'] = 3
+test['fourth'] = 50
 
-print(answer)
-print(i)
+del test['second']
+test['second'] = 45
+
+print(test)
+for x, t in enumerate(test):
+    print (x)
+    print (t)
+
